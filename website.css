@@ -1,0 +1,387 @@
+* {
+    margin: 0px;
+    padding: 0px;  
+}
+nav {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color:black;
+    z-index: 1;
+}
+#d1{
+    display: flex;
+    list-style: none;
+    margin-right: auto;
+    margin-left: -30px;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#d2 {
+    display: flex;
+    list-style: none;
+    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.links {
+    text-decoration: none;
+    color:rgb(128, 128, 128);
+    font-weight: 600;
+    margin: 0px 20px;
+    font-size: 16px;
+}
+.bings{
+    text-decoration: none;
+    color:rgba(255, 191, 0, 0.856);
+    font-weight: 600;
+    margin: 0px 20px;
+    font-size: 17px;
+}
+.ring{
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+    margin: 0px 20px;
+    font-size: 19px;
+
+}
+.links:hover{
+    color: white;
+}
+.bings:hover{
+    color: white;
+}
+.ring:hover{
+    color: rgba(255, 191, 0, 0.856);
+}
+#d3{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    width: 200px;
+    height: 91px;
+    background-color:rgba(255, 191, 0, 0.856);
+    justify-content: center;
+    align-items:center;
+    border: 1px solid white;
+    text-align: center;
+
+}
+.sing{
+    text-decoration: none;
+    color:rgb(28, 28, 28);
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    line-height: 1.2;
+    margin-left: -30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.image {
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('https://wallpapers.com/images/hd/bgmi-frying-pan-guy-ambns17zjhz7cdwa.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#download1{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 200px 0px 0px -1200px;
+    display: inline-block;
+    font-size: 40px;
+    line-height: 0.8;
+    position: absolute;
+}
+#download2{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 200px 0px 0px -650px;
+    display: inline-block;
+    font-size: 40px;
+    line-height: 0.8;
+    position: absolute;
+    
+}
+.moon{
+    text-align: center;
+    margin-top: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.moon>h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+#lan{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-img{
+    text-align: center;
+    margin-top: 90px;
+}
+#d4{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    height: 1000px;
+    background-image:linear-gradient(to bottom right,white,grey);
+}
+.soon{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.soon>h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+#d5{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.news{
+    width: 400px;
+    height: 370px;
+    margin: 10px;
+    border-radius: 0px;
+    text-align: center;
+    border: 1px solid white; 
+    background-image: linear-gradient(to bottom right,white,rgb(255, 255, 255));
+    margin-top: -90px; 
+    box-shadow: 4px 2px 2px black;  
+}
+.news>#pat{
+  margin: 20px 0px 0px -260px;
+  font-size: 19px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(128, 128, 128);
+
+}
+.news>#up{
+    margin: 20px 0px 0px -180px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+  }
+.news>#do{
+    margin: 20px 0px 0px -270px;
+    font-size: 19px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    color: rgb(128, 128, 128);
+  }
+  #d6{
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px rgba(177, 176, 176, 0.921);
+    margin-left: 640px;
+    text-decoration: none;
+    list-style: none;
+    margin-top: -50px;
+  }
+  .btn>h6{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 2px 0px 0px 0px;
+    font-size: 20px;
+  }
+  #d6:hover{
+    border:solid 3px black;
+  }
+ .son{
+    text-align: center;
+  margin-top: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.son>h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: black;
+}
+#d7{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to bottom right,rgb(58, 57, 57),black,rgb(58, 56, 56));
+    
+}
+.part{
+    width: 355px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 0px;
+    text-align: center;
+    border: 1px solid white; 
+    background-image: linear-gradient(to bottom right,white,rgb(255, 255, 255));
+    margin-top: 40px; 
+    box-shadow: 4px 2px 2px black;
+
+}
+.part>#pat{
+  margin: 20px 0px 0px -260px;
+  font-size: 19px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(128, 128, 128);
+
+}
+.part>#up{
+    margin: 20px 0px 0px -210px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+  }
+  .part>#le{
+    margin: 20px 0px 0px -260px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+  }
+
+.part>#do{
+    margin: 20px 0px 0px -230px;
+    font-size: 19px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    color: rgb(128, 128, 128);
+  }
+  .part:hover{
+    color:rgba(255, 191, 0, 0.856);
+  }
+  .foot {
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-image: url('./img1/bgmi2.webp'); */
+    background-color:white;
+    background-size: cover;
+    background-attachment: local;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.pan{
+    margin: -120px 0px 0px 150px;
+    border-radius: 10px;
+}
+#ran{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.foot>h6{
+    margin: 50px 0px 0px -220px;
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#download3{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 200px 0px 0px 250px;
+    display: inline-block;
+    font-size: 40px;
+    line-height: 0.8;
+    position: absolute;
+}
+#download4{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 200px 0px 0px -270px;
+    display: inline-block;
+    font-size: 40px;
+    line-height: 0.8;
+    position: absolute;
+    
+}
+
+.footer{
+width: 100%;
+height: 200px;
+background-color:black;
+display: flex;
+}
+.and{
+    margin: 20px 0px 0px 670px;
+}
+.footer>p{
+    margin: 90px 0px 0px -190px ;
+    color: rgb(128, 128, 128);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+
+}
+.footer>#git{
+    margin: 130px 0px 0px -350px;
+}
+.up-arrow{
+    float: right;
+    margin: -40px 30px 30px 0px;
+}
+.icon{
+
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -40px 10px;
+    background-color: white;
+}
+.brand{
+    font-size: 30px;
+    color: black;
+}
+.icon:hover{
+    color: rgba(255, 191, 0, 0.856);
+}
+html{
+    scroll-behavior: smooth;
+}
